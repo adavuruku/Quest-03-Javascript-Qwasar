@@ -14,8 +14,8 @@ function roman_numerals(number){
     else if (value.length==1)
         return ones[value[0]]
     else
-        return "Can't handle this!!"
+        return ""
     end
 }
 
-console.log(roman_numerals(13));
+console.log(roman_numerals(""));
